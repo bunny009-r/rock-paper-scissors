@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+  }
+
+.navbar{
+background-color: rgb(2, 2, 39);
+height: 5rem;
+display: flex;
+align-items: center;
+
+}
+.navbar-brand{
+color: white;
+font-size: 2rem;
+width: 100%;
+text-align: center;
+font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+  }
+.row
+{
+display: flex;
+justify-content: center;
+margin-top: 11vh;
+gap: 4rem;
+flex-wrap: wrap;
+padding: 0px 20%;
+
+}
+.feature img{
+
+height: 150px;
+width: 150px;
+border-radius:50%;
+object-fit: cover;
+box-sizing: border-box; 
+}
+.feature img:hover{
+border: 5px solid  rgb(2, 2, 39);
+}
+.score-board{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 5rem;
+font-size: 2rem;
+margin:3rem 0px 2rem 0px ;
+text-align: center;
+flex-wrap: wrap;
+
+}
+
+.score p {
+margin: 0; /* Remove default margin */
+padding: 0; /* Remove any padding */
+}
+.myscore,.comp-score{
+font-size: 4rem;
+}
+
+.msg{
+display: flex;
+justify-content: center;
+}
+.msg p{
+font-size: 32px;
+background:  rgb(2, 2, 39);
+color: white;
+padding: 1rem;
+border-radius: 1rem;
+}
